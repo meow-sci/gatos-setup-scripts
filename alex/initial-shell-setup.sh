@@ -20,4 +20,4 @@ cp "${script_dir}/starship.toml" ~/.config/starship.toml
 
 echo "Installing and setting up atuin"
 curl --proto '=https' --tlsv1.2 -LsSf https://setup.atuin.sh | sh -s -- --non-interactive
-cp "${script_dir}/atuin._config.toml" ~/.config/atuin/config.toml
+cp "${script_dir}/atuin_config.toml" ~/.config/atuin/config.toml
